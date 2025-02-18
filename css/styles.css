@@ -1,16 +1,14 @@
-.gallery{
+.gellery{
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
-
-.gallery li{
-    box-sizing: border-box;
-}
-
-.gallery img{
-    height: 100px;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+img{
+    width: 400px;
+    height: 400px;
+    
 }
